@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+header{
+
+    background-color: #0a0231;
+    color: white;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+    font-size: 20px;
+}
+
+.banner {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+#conteudo img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+    gap: 20px;
+    background-color:#0a0231;
+    color: white;
+    flex-direction: ro;
+
+}
+
+.banner2 img{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#conteudo2 {
+    display:flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    gap: 40px;
+
+}
+
+
+#sobre2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    right: 30%;
+    gap: 20px;
+}
+
+
+.banner3 {
+    padding: 20px;
+    gap: 20px;
+    background-color:#0a0231;
+    color: white;
+    text-align: center;
+
+}
+
+.banner3 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px -1px 4px white;
+    
+}
+
+#cards  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+ 
+}
+
+
+#cards p {
+  font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#nome , #email {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+
+.final input,label {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+button {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+    background-color: #0a0231;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
